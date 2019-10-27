@@ -5,6 +5,8 @@ int main()
 
    printf("Enter three numbers : ");
    scanf("%d %d %d",&no1,&no2,&no3);
+   
+   //code body
 
    if (no1>no2 && no1>no3)
     max=no1;
@@ -19,9 +21,11 @@ int main()
         min=no2;
     else
         min=no3;
+   
+   //This is the code to display the outputs
 
-   printf("The maximum is %d \n",max);
-   printf("The minimum is %d",min);
+   printf("The maximum number is %d \n",max);
+   printf("The minimum number is %d",min);
 
 
 
