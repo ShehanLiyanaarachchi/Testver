@@ -2,6 +2,9 @@
 int main()
 
 {
+    
+    //declearing variables 
+    
     int no1,no2,total;
     
     //This is the body part
