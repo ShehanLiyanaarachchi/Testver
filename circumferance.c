@@ -9,9 +9,11 @@ int main()
     printf("Enter number 3 to calculate the volume of a sphere \n");
 
     scanf("%d",&no);
-
+    
+    //The body part
+    
     if(no>3)
-    printf("The number is invalid");
+    printf("The entered number is invalid");
     exit(0);
 
     printf("Enter the radius of the circle ");
@@ -26,7 +28,7 @@ int main()
     case 3: vol=(4*pi*(rad*rad*rad))/3;break;
     default: printf("The entered number is invalid ");break;
     }
-
+     
     switch(no)
     {
         case 1: printf("The circumference of the circle is %.2f \n",cir);break;
