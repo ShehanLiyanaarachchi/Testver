@@ -1,6 +1,8 @@
 #include<stdio.h>
 int main()
 {
+   
+   //declaring variables
    int no1,no2,no3,max,min;
 
    printf("Enter three numbers : ");
