@@ -10,7 +10,7 @@ int main()
 
     scanf("%d",&no);
     
-    //The body part
+    //The main part of the code
     
     if(no>3)
     printf("The entered number is invalid");
@@ -28,7 +28,7 @@ int main()
     case 3: vol=(4*pi*(rad*rad*rad))/3;break;
     default: printf("The entered number is invalid ");break;
     }
-     //Here we will be using the switch case
+     //Use of switch case
     switch(no)
     {
         case 1: printf("The circumference of the circle is %.2f \n",cir);break;
