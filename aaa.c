@@ -24,10 +24,10 @@ int main()
     else
         min=no3;
    
-   //This is the code to display the outputs
+   //Used to display
 
-   printf("The maximum number is %d \n",max);
-   printf("The minimum number is %d",min);
+   printf("The highest number is %d \n",max);
+   printf("The lowest number is %d",min);
 
 
 
