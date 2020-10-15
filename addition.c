@@ -3,11 +3,11 @@ int main()
 
 {
     
-    //declearing variables 
+    //complying variables
     
     int no1,no2,total;
     
-    //This is the body part
+    //Main part of the code
 
     printf("Input the first number ");
     scanf("%d",&no1);
